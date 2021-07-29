@@ -1,0 +1,31 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 40px;
+    border: 2px solid #DC780B;
+    width: 500px;
+    padding: 7px 13px;
+    margin: 30px auto;
+}
+
+.search > svg {
+    width: 22px;
+    height: 22px;
+}
+
+.search > input {
+    color: #E83400;
+    border: 0px solid transparent;
+    outline: none;
+    font-size: 18px;
+    width: 460px;
+    margin-left: 10px;
+    height: 19px;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search > input::placeholder {
+    color: #E83400;
+}

@@ -1,0 +1,48 @@
+.card {
+    width: 360px;
+    height: 446px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    border-radius: 75px 10px 10px 10px;
+}
+
+.card > img {
+    height: 264px;
+    width: 100%;
+    border: 0px solid transparent;
+    border-radius: 76px 10px 76px 0px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 310px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.add {
+    width: 36px;
+    height: 34px;
+    background: #DC780B;
+    outline: none;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    cursor: pointer;
+}
+
+.rating,
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
